@@ -44,9 +44,9 @@ const MenuItem = (props) => {
           
         }
       }
+
       return(
         <div style={styles.container}>
-        {/* <div> */}
           <div 
             style={styles.menuItem} 
             onMouseEnter={()=>{handleHover();}} 
@@ -55,8 +55,8 @@ const MenuItem = (props) => {
           >
             {props.children}  
           </div>
-        <div style={styles.line}/>
-      </div>  
+          <div style={styles.line}/>
+        </div>  
       )
   }
 

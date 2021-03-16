@@ -44,10 +44,9 @@ const Menu = (props) => {
       return(
         <div style={styles.container}>
           {
-            open?
-              <div style={styles.menuList}>
-                {props.children}
-              </div>:null
+            open ?
+              <div style={styles.menuList}> {props.children} </div> : 
+              null
           }
         </div>
       )
