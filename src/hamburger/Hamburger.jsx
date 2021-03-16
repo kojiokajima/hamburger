@@ -59,9 +59,8 @@ const Hamburger = () => {
             delay={`${index * 0.1}s`}
             onClick={()=>{handleLinkClick();}}
             >
-                {val}
-            </MenuItem>
-            // <p>{val}</p>
+              {val}
+          </MenuItem>
         )
       });
       
@@ -74,9 +73,6 @@ const Hamburger = () => {
           <Menu open={menuOpen}>
             {menuItems}
           </Menu>
-          {/* <div style={styles.body}>
-            <Footer name='Menu'/>
-          </div> */}
         </div>
       )
   }
